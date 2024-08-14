@@ -1,0 +1,36 @@
+/*@!Encoding:936*/
+includes
+{
+  
+}
+
+variables
+{
+
+}
+on start
+{
+  //  Start python cmd
+  sysExecCmd("python","../python/python_control.py");
+}
+
+on preStop
+{
+//  sysExecCmd("python","exit");
+  @sysvar::python::py_exit=1;
+}
+
+on key 'a'
+{
+
+//    snprintf(cmd,"python ../python_control.py");
+//    sysExec("python ../python_control.py");
+    sysExecCmd("python","../python/python_control.py");
+}
+on sysvar sysvar::python::py_exit
+{
+  if(@this ==1)
+  {
+    @sysvar::python::py_exit=1;
+  }
+}

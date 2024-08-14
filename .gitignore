@@ -1,0 +1,3 @@
+.vscode/settings.json
+CANoe_py_com_sysvar/cfg/*.stcfg
+CANoe_py_com_sysvar/capl/node/*.cbf

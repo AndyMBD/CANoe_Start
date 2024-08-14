@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=12.0.216.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=12.0.216.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName="Power_Control_Panel">
+    <Object Type="Vector.CANalyzer.Panels.Design.ButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=12.0.216.0, Culture=neutral, PublicKeyToken=null" Name="ButtonControl1" Children="Controls" ControlName="Button 1">
+      <Property Name="Name">ButtonControl1</Property>
+      <Property Name="Size">75, 23</Property>
+      <Property Name="Location">62, 141</Property>
+      <Property Name="Text">Turn Off</Property>
+      <Property Name="SymbolConfiguration">6;16;python;;;py_exit;1;;;-1;;;;</Property>
+      <Property Name="TabIndex">3</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.LCDControl, Vector.CANalyzer.Panels.CommonControls, Version=12.0.216.0, Culture=neutral, PublicKeyToken=null" Name="LCDControl1" ControlName="LCD Control 1">
+      <Property Name="Name">LCDControl1</Property>
+      <Property Name="Size">79, 50</Property>
+      <Property Name="Location">280, 38</Property>
+      <Property Name="NumberIntDigits">2</Property>
+      <Property Name="SymbolConfiguration">6;16;python;;;current;1;;;-1;;;;</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=12.0.216.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl2" Children="Controls" ControlName="Input/Output Box 2">
+      <Property Name="Name">TextBoxControl2</Property>
+      <Property Name="Size">142, 20</Property>
+      <Property Name="Location">237, 106</Property>
+      <Property Name="AlarmUpperTextColor">WindowText</Property>
+      <Property Name="ValueDecimalPlaces">0</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="ValueDisplay">Decimal</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmLowerTextColor">WindowText</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="DescriptionText">current:</Property>
+      <Property Name="DescriptionSize">43, 20</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="SymbolConfiguration">6;16;python;;;current;1;;;-1;;;;</Property>
+      <Property Name="TabIndex">2</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TrackBarControl, Vector.CANalyzer.Panels.CommonControls, Version=12.0.216.0, Culture=neutral, PublicKeyToken=null" Name="TrackBarControl1" Children="Controls" ControlName="Track Bar 1">
+      <Property Name="Name">TrackBarControl1</Property>
+      <Property Name="Size">163, 47</Property>
+      <Property Name="Location">47, 88</Property>
+      <Property Name="Maximum">100</Property>
+      <Property Name="MaximumDouble">100</Property>
+      <Property Name="SymbolConfiguration">6;16;python;;;voltage;1;;;-1;;;;</Property>
+      <Property Name="TabIndex">1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=12.0.216.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl1" Children="Controls" ControlName="Input/Output Box 1">
+      <Property Name="Name">TextBoxControl1</Property>
+      <Property Name="Size">143, 20</Property>
+      <Property Name="Location">47, 48</Property>
+      <Property Name="AlarmUpperTextColor">WindowText</Property>
+      <Property Name="ValueDecimalPlaces">0</Property>
+      <Property Name="AlarmLowerBkgColor">Salmon</Property>
+      <Property Name="ValueDisplay">Decimal</Property>
+      <Property Name="AlarmUpperBkgColor">IndianRed</Property>
+      <Property Name="AlarmLowerTextColor">WindowText</Property>
+      <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+      <Property Name="DisplayLabel">Left</Property>
+      <Property Name="DescriptionText">voltage:</Property>
+      <Property Name="DescriptionSize">44, 20</Property>
+      <Property Name="UsedValueTable">PhysicalValue</Property>
+      <Property Name="SymbolConfiguration">6;16;python;;;voltage;1;;;-1;;;;</Property>
+      <Property Name="TabIndex">0</Property>
+    </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">435, 182</Property>
+    <Property Name="BackColor">White</Property>
+  </Object>
+</Panel>
