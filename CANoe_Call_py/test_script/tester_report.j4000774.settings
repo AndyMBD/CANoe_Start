@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <WindowManagement3>
+    <SerializableDictionaryOfStringObject>
+      <item>
+        <key type="System.String">
+          <string>DockingLayout</string>
+        </key>
+        <value type="System.String">
+          <string>&lt;DockSiteLayout xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SerializationFormat="All" Version="2"&gt;
+	&lt;AutoHideHost /&gt;
+	&lt;Content xsi:type="SplitContainer" Orientation="Horizontal" DockedSize="1524,776"&gt;
+		&lt;UIElement xsi:type="ToolWindowContainer" DockedSize="350,150" SelectedWindowUniqueId="be3328d7-ceba-4d7d-8e62-81a39729d328"&gt;
+			&lt;UIElement xsi:type="ToolWindowRef" UniqueId="be3328d7-ceba-4d7d-8e62-81a39729d328" /&gt;
+		&lt;/UIElement&gt;
+		&lt;UIElement xsi:type="Workspace"&gt;
+			&lt;Content xsi:type="TabbedMdiHost"&gt;
+				&lt;Content xsi:type="TabbedMdiContainer" SelectedWindowUniqueId="a1aef053-82c5-4d62-847a-67bf6b518ae3"&gt;
+					&lt;UIElement xsi:type="DocumentWindowRef" UniqueId="a1aef053-82c5-4d62-847a-67bf6b518ae3" /&gt;
+				&lt;/Content&gt;
+			&lt;/Content&gt;
+		&lt;/UIElement&gt;
+	&lt;/Content&gt;
+	&lt;DocumentWindows&gt;
+		&lt;DocumentWindow UniqueId="a1aef053-82c5-4d62-847a-67bf6b518ae3" SerializationId="TestReport&amp;lt;1&amp;gt;" IsOpen="true" LastActiveDateTime="2024-08-15T10:01:55.3126932+08:00" State="Document" Type="Vector.ReportViewer.UI.ContentViews.Controls.ContentViewDocumentWnd, Vector.ReportViewer.UI" /&gt;
+	&lt;/DocumentWindows&gt;
+	&lt;ToolWindows&gt;
+		&lt;ToolWindow UniqueId="be3328d7-ceba-4d7d-8e62-81a39729d328" Name="mWndExplorer" ContainerDockedSize="350,150" IsOpen="true" LastActiveDateTime="2024-08-15T10:01:55.6639854+08:00" State="Docked" /&gt;
+	&lt;/ToolWindows&gt;
+&lt;/DockSiteLayout&gt;</string>
+        </value>
+      </item>
+      <item>
+        <key type="System.String">
+          <string>WindowLayout</string>
+        </key>
+        <value type="Vector.ReportViewer.UI.Windows.WndPosAndSize">
+          <WndPosAndSize>
+            <Location>
+              <X>192</X>
+              <Y>120</Y>
+            </Location>
+            <Width>1536</Width>
+            <Height>960</Height>
+            <WndState>Normal</WndState>
+          </WndPosAndSize>
+        </value>
+      </item>
+    </SerializableDictionaryOfStringObject>
+  </WindowManagement3>
+  <GlobalOptions3>
+    <SerializableDictionaryOfStringObject>
+      <item>
+        <key type="System.String">
+          <string>ContentView</string>
+        </key>
+        <value type="Vector.ReportViewer.ViewModel.ContentModels.ContentModelPersistList">
+          <ArrayOfContentModelPersist>
+            <ContentModelPersist d7p1:type="VisualizableNodeModelPersist" xmlns:d7p1="http://www.w3.org/2001/XMLSchema-instance">
+              <ReportUniqueId>86f520ea-5461-480c-bb29-259d67a70ed9</ReportUniqueId>
+              <NodeName>Test_py</NodeName>
+              <NodeType>TestReport</NodeType>
+              <DbId>1</DbId>
+              <IsTreeNode>true</IsTreeNode>
+              <PathToNode />
+            </ContentModelPersist>
+          </ArrayOfContentModelPersist>
+        </value>
+      </item>
+    </SerializableDictionaryOfStringObject>
+  </GlobalOptions3>
+  <Queries3>
+    <SerializableDictionaryOfStringObject>
+      <item>
+        <key type="System.String">
+          <string>OpenUserQueries</string>
+        </key>
+        <value type="System.Collections.Generic.List`1[System.String]">
+          <ArrayOfString />
+        </value>
+      </item>
+      <item>
+        <key type="System.String">
+          <string>UnsavedQueries</string>
+        </key>
+        <value type="Vector.ReportViewer.Data.QueryTerms.QueryListPersist">
+          <Queries type="Vector.ReportViewer.Data.QueryTerms.Query" />
+        </value>
+      </item>
+      <item>
+        <key type="System.String">
+          <string>OrderQueries</string>
+        </key>
+        <value type="System.Collections.Generic.List`1[System.String]">
+          <ArrayOfString />
+        </value>
+      </item>
+    </SerializableDictionaryOfStringObject>
+  </Queries3>
+  <ViewFilter4>
+    <SerializableDictionaryOfStringObject>
+      <item>
+        <key type="System.String">
+          <string>ViewFilter</string>
+        </key>
+        <value type="Vector.ReportViewer.Data.ViewFilter.FilterSettingsPersistList">
+          <GlobalFiltersList>
+            <FilterSettingsPersist>
+              <Name>Vector.ReportViewer.Data.ViewFilter.ActivitiesVerdictFilter</Name>
+              <IsActive>false</IsActive>
+              <FilterDict>
+                <FilterSettingsPersistDictItem>
+                  <Key>FilterLevel</Key>
+                  <Value>Pass</Value>
+                </FilterSettingsPersistDictItem>
+              </FilterDict>
+            </FilterSettingsPersist>
+            <FilterSettingsPersist>
+              <Name>Vector.ReportViewer.Data.ViewFilter.TestTreeElementsVerdictFilter</Name>
+              <IsActive>false</IsActive>
+              <FilterDict>
+                <FilterSettingsPersistDictItem>
+                  <Key>FilterLevel</Key>
+                  <Value>Pass</Value>
+                </FilterSettingsPersistDictItem>
+              </FilterDict>
+            </FilterSettingsPersist>
+            <FilterSettingsPersist>
+              <Name>Vector.ReportViewer.Data.ViewFilter.WaitsFilterSimple</Name>
+              <IsActive>false</IsActive>
+              <FilterDict />
+            </FilterSettingsPersist>
+            <FilterSettingsPersist>
+              <Name>Vector.ReportViewer.Data.ViewFilter.WaitsFilterComplex</Name>
+              <IsActive>false</IsActive>
+              <FilterDict />
+            </FilterSettingsPersist>
+            <FilterSettingsPersist>
+              <Name>Vector.ReportViewer.Data.ViewFilter.SkippedsFilter</Name>
+              <IsActive>false</IsActive>
+              <FilterDict />
+            </FilterSettingsPersist>
+            <FilterSettingsPersist>
+              <Name>Vector.ReportViewer.Data.ViewFilter.ViolationsFilter</Name>
+              <IsActive>false</IsActive>
+              <FilterDict />
+            </FilterSettingsPersist>
+            <FilterSettingsPersist>
+              <Name>Vector.ReportViewer.Data.ViewFilter.ControlCommandFilter</Name>
+              <IsActive>false</IsActive>
+              <FilterDict>
+                <FilterSettingsPersistDictItem>
+                  <Key>IfFilterIsActive</Key>
+                  <Value>False</Value>
+                </FilterSettingsPersistDictItem>
+                <FilterSettingsPersistDictItem>
+                  <Key>LoopFilterIsActive</Key>
+                  <Value>False</Value>
+                </FilterSettingsPersistDictItem>
+              </FilterDict>
+            </FilterSettingsPersist>
+          </GlobalFiltersList>
+        </value>
+      </item>
+    </SerializableDictionaryOfStringObject>
+  </ViewFilter4>
+  <PersistentStorage>
+    <SerializableDictionaryOfStringObject>
+      <item>
+        <key type="System.String">
+          <string>ReportId</string>
+        </key>
+        <value type="System.Int64">
+          <long>-884553390</long>
+        </value>
+      </item>
+    </SerializableDictionaryOfStringObject>
+  </PersistentStorage>
+</Settings>

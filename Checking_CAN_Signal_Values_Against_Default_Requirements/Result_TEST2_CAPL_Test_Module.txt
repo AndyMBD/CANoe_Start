@@ -1,0 +1,62 @@
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Active' match
+CAPL  .NET	
+CAPL  .NET	 FAIL DBC default value & bus-received value of CAN signal 'CarSpeed' do not match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'data' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Data1' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Data2' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Data3' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Data4' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'EngineRunning' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'EngineTemp' match
+CAPL  .NET	
+CAPL  .NET	 FAIL DBC default value & bus-received value of CAN signal 'EngSpeed' do not match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Gear' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Ig_15' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Ig_15R' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Light' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Mirror_l2d' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Mirror_l2l' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Mirror_l2r' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Mirror_l2u' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Mirror_r2d' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Mirror_r2l' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Mirror_r2r' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Mirror_r2u' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'PetrolLevel' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Phase' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'SleepInd' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'StarterKey' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'Voltage' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'WN_left_down' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'WN_left_up' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'WN_right_down' match
+CAPL  .NET	
+CAPL  .NET	 PASS DBC default value & bus-received value of CAN signal 'WN_right_up' match
+CAPL  .NET	

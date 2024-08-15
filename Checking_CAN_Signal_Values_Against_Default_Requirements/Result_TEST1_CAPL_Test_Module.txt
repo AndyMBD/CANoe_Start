@@ -1,0 +1,341 @@
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Active':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Active' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'CarSpeed':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'CarSpeed' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'data':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Data1':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Data2':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Data3':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Data4':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'EngineRunning':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'EngineRunning' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'EngineTemp':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'EngineTemp' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'EngSpeed':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'EngSpeed' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Gear':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Gear' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Ig_15':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Ig_15' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Ig_15R':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Ig_15R' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Light':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Light' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Mirror_l2d':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Mirror_l2d' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Mirror_l2l':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Mirror_l2l' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Mirror_l2r':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Mirror_l2r' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Mirror_l2u':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Mirror_l2u' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Mirror_r2d':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Mirror_r2d' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Mirror_r2l':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Mirror_r2l' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Mirror_r2r':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Mirror_r2r' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Mirror_r2u':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Mirror_r2u' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'PetrolLevel':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'PetrolLevel' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Phase':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Phase' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'SleepInd':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'StarterKey':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'StarterKey' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'Voltage':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'Voltage' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'WN_left_down':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'WN_left_down' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'WN_left_up':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'WN_left_up' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'WN_Position':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+System	Signal WN_Position not found
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'WN_Position':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+System	Signal WN_Position not found
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'WN_right_down':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'WN_right_down' match
+CAPL / .NET	
+CAPL / .NET	
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	Default/Init/Received Values of 'WN_right_up':
+CAPL / .NET	DB value (i.e. physical value) is 0
+CAPL / .NET	DB value (i.e. init value) is 0
+CAPL / .NET	Received value of is 0 (raw: form 1)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	Received value is 0 (phy: form 2)
+CAPL / .NET	=========================================================================================================
+CAPL / .NET	      > PASS: DBC default value & bus-received value of CAN signal 'WN_right_up' match
+CAPL / .NET	
+CAPL / .NET	

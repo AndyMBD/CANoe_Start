@@ -1,0 +1,316 @@
+/*@!Encoding:1252*/
+void MainTest()
+{
+
+  TestModuleTitle("TEST2_CAPL_Test_Module");
+  TestModuleDescription("TEST2_CAPL_Test_Module");
+  TestGroupBegin("TEST_GROUP2", "TEST2_CAPL_Test_Module");
+
+  TEST_002();
+
+  TestGroupEnd();
+
+}
+
+
+testcase TEST_002()
+{
+
+  if($Active == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Active' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Active' do not match\n");
+  }
+
+  if($CarSpeed == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'CarSpeed' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'CarSpeed' do not match\n");
+  }
+
+  if($data == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'data' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'data' do not match\n");
+  }
+
+  if($Data1 == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Data1' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Data1' do not match\n");
+  }
+
+  if($Data2 == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Data2' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Data2' do not match\n");
+  }
+
+  if($Data3 == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Data3' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Data3' do not match\n");
+  }
+
+  if($Data4 == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Data4' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Data4' do not match\n");
+  }
+
+  if($EngineRunning == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'EngineRunning' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'EngineRunning' do not match\n");
+  }
+
+  if($EngineTemp == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'EngineTemp' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'EngineTemp' do not match\n");
+  }
+
+  if($EngSpeed == 5)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'EngSpeed' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'EngSpeed' do not match\n");
+  }
+
+  if($Gear == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Gear' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Gear' do not match\n");
+  }
+
+  if($Ig_15 == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Ig_15' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Ig_15' do not match\n");
+  }
+
+  if($Ig_15R == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Ig_15R' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Ig_15R' do not match\n");
+  }
+
+  if($Light == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Light' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Light' do not match\n");
+  }
+
+  if($Mirror_l2d == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Mirror_l2d' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Mirror_l2d' do not match\n");
+  }
+
+  if($Mirror_l2l == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Mirror_l2l' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Mirror_l2l' do not match\n");
+  }
+
+  if($Mirror_l2r == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Mirror_l2r' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Mirror_l2r' do not match\n");
+  }
+
+  if($Mirror_l2u == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Mirror_l2u' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Mirror_l2u' do not match\n");
+  }
+
+  if($Mirror_r2d == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Mirror_r2d' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Mirror_r2d' do not match\n");
+  }
+
+  if($Mirror_r2l == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Mirror_r2l' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Mirror_r2l' do not match\n");
+  }
+
+  if($Mirror_r2r == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Mirror_r2r' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Mirror_r2r' do not match\n");
+  }
+
+  if($Mirror_r2u == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Mirror_r2u' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Mirror_r2u' do not match\n");
+  }
+
+  if($PetrolLevel == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'PetrolLevel' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'PetrolLevel' do not match\n");
+  }
+
+  if($Phase == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Phase' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Phase' do not match\n");
+  }
+
+  if($SleepInd == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'SleepInd' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'SleepInd' do not match\n");
+  }
+
+  if($StarterKey == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'StarterKey' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'StarterKey' do not match\n");
+  }
+
+  if($Voltage == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'Voltage' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'Voltage' do not match\n");
+  }
+
+  if($WN_left_down == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'WN_left_down' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'WN_left_down' do not match\n");
+  }
+
+  if($WN_left_up == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'WN_left_up' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'WN_left_up' do not match\n");
+  }
+
+//  if($WN_Position == 0)
+//  {
+//     write("> PASS: DBC default value & bus-received value of CAN signal 'WN_Position' match\n");
+//  }
+//  else
+//  {
+//     write("> FAIL: DBC default value & bus-received value of CAN signal 'WN_Position' do not match\n");
+//  }
+//
+//  if($WN_Position == 0)
+//  {
+//     write("> PASS: DBC default value & bus-received value of CAN signal 'WN_Position' match\n");
+//  }
+//  else
+//  {
+//     write("> FAIL: DBC default value & bus-received value of CAN signal 'WN_Position' do not match\n");
+//  }
+
+  if($WN_right_down == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'WN_right_down' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'WN_right_down' do not match\n");
+  }
+
+  if($WN_right_up == 0)
+  {
+     write("> PASS: DBC default value & bus-received value of CAN signal 'WN_right_up' match\n");
+  }
+  else
+  {
+     write("> FAIL: DBC default value & bus-received value of CAN signal 'WN_right_up' do not match\n");
+  }
+
+}

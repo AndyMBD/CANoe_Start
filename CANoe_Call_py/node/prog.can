@@ -1,0 +1,25 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  
+}
+
+on start
+{
+  write("=== Instructions ===");
+  write("- Press 'a' to start Python skript from simulation node.");
+  write("- Press 's' to start Python skript from CAPL test module.");
+  write("- Press 'd' to start Python skript from NET test module.");
+}
+
+on key 'a'
+{
+  char absPath[256];
+  getAbsFilePath("", absPath, elcount(absPath));
+  sysExecCmd("py ../python/HelloWorld.py", "", absPath);
+}

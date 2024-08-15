@@ -1,0 +1,74 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  
+  char buffer[100];
+  char parsedSignal[100];
+  dword glbHandle = 0;
+}
+
+void MainTest()
+{
+  TestModuleTitle("TEST1_CAPL_Test_Module");
+  TestModuleDescription("TEST1_CAPL_Test_Module");
+  TestGroupBegin("TEST_GROUP1", "TEST1_CAPL_Test_Module");
+  
+  TEST_001();
+
+  TestGroupEnd();  
+
+}
+
+dword phys_val(signal * s)
+{
+   return $s.phys;
+}
+
+dword raw_val(signal * s)
+{
+   return $s.raw;
+}
+
+testcase TEST_001()
+{
+  dword index;
+  dword temp;
+  
+  glbHandle = OpenFileRead("D:\\ExportOfSignalsList.txt", 0);
+
+  while(fileGetStringSZ(parsedSignal, elcount(parsedSignal), glbHandle))
+  {
+    write("=========================================================================================================");
+    write("Default/Init/Received Values of '%s':", parsedSignal);
+    write("DB value (i.e. physical value) is %d", DBLookup(lookupSignal(parsedSignal)).DefaultValue);
+    write("DB value (i.e. init value) is %d", DBLookup(lookupSignal(parsedSignal)).GenSigStartValue);
+    write("Received value of is %d (raw: form 1)", getSignal(parsedSignal));
+    write("Received value is %d (phy: form 2)", phys_val(lookupSignal(parsedSignal)));
+    write("Received value is %d (phy: form 2)", phys_val(lookupSignal(parsedSignal)));
+    write("=========================================================================================================");
+       
+    if (TestWaitForSignal(lookupSignal(parsedSignal), 2000) == 1)
+    {
+      if(DBLookup(lookupSignal(parsedSignal)) == 1)
+      {
+        // if(DBLookup(lookupSignal(parsedSignal)).GenSigStartValue == getSignal(parsedSignal)) --> Raw versus Raw
+        // if(DBLookup(lookupSignal(parsedSignal)).DefaultValue == phys_val(lookupSignal(parsedSignal))) --> physical versus physical
+        // if((DBLookup(lookupSignal(parsedSignal)).DefaultValue - DBLookup(lookupSignal(parsedSignal)).offset)/DBLookup(lookupSignal(parsedSignal)).factor == getSignal(parsedSignal)) --> Raw versus Raw (converted)
+        // if((DBLookup(lookupSignal(parsedSignal)).DefaultValue - DBLookup(lookupSignal(parsedSignal)).offset)/DBLookup(lookupSignal(parsedSignal)).factor == raw_val(lookupSignal(parsedSignal)) --> Raw versus Raw (converted)
+        if(DBLookup(lookupSignal(parsedSignal)).DefaultValue == phys_val(lookupSignal(parsedSignal)))
+        {
+          write("      > PASS: DBC default value & bus-received value of CAN signal '%s' match\n\n", parsedSignal);
+        }
+        else
+        {
+          write("      > FAIL: DBC default value & bus-received value of CAN signal '%s' do not match\n\n", parsedSignal);
+        }
+      }
+    }
+  }
+}

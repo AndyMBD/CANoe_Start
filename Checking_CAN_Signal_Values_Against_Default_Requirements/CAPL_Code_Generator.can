@@ -1,0 +1,70 @@
+/*@!Encoding:1252*/
+variables
+{
+  int signalCount = 0;
+  char parsedSignalName[1000][100];
+  char parsedSignalValue[1000][5];
+  
+  char temp[1000];
+  int index;
+  
+  dword glbHandle = 0;
+  dword glbHandle2 = 0;
+  dword writeHandle = 0;  
+  
+  char CAPLtestNodeStarter1[100] = "void MainTest()\n{\n\n";
+  char CAPLtestNodeStarter2[100] = "  TestModuleTitle(\"TEST2_CAPL_Test_Module\");\n";
+  char CAPLtestNodeStarter3[100] = "  TestModuleDescription(\"TEST2_CAPL_Test_Module\");\n";
+  char CAPLtestNodeStarter4[100] = "  TestGroupBegin(\"TEST_GROUP2\", \"TEST2_CAPL_Test_Module\");\n\n";
+  char CAPLtestNodeStarter5[100] = "  TEST_002();\n\n";
+  char CAPLtestNodeStarter6[100] = "  TestGroupEnd();\n\n}\n\n\n";
+  
+  char CAPLtestHeader[100] = "testcase TEST_002()\n{\n\n";  
+}
+
+on start
+{
+  setWritePath("D:");
+  writeHandle = openFileWrite("TEST2_CAPL_Test_Module.can", 1);
+  
+  glbHandle = OpenFileRead("D:\\ExportOfSignalsList.txt", 0);
+  glbHandle2 = OpenFileRead("D:\\ExportOfSignalValues.txt", 0);
+
+  signalCount = 0;
+  while(fileGetStringSZ(temp, elcount(temp), glbHandle))
+  {
+    snprintf(parsedSignalName[signalCount], 100, temp); // Compile the name of signals
+    signalCount++;
+  }
+  
+  signalCount = 0;
+  while(fileGetStringSZ(temp, elcount(temp), glbHandle2))
+  {
+    snprintf(parsedSignalValue[signalCount], 5, temp);  // Compile the value of signals
+    signalCount++; // Find out the number of signals 
+  }
+}
+
+on key '9'
+{
+  snprintf(temp, elcount(temp), "%s%s%s%s%s%s%s", CAPLtestNodeStarter1, CAPLtestNodeStarter2, CAPLtestNodeStarter3, CAPLtestNodeStarter4, CAPLtestNodeStarter5, CAPLtestNodeStarter6, CAPLtestHeader);
+  
+  filePutString(temp, elcount(temp), writeHandle); // CAPL testcase format
+  
+  for(index = 0; index < signalCount; index++)
+  { 
+    snprintf(temp, elcount(temp), "");
+    snprintf(temp, elcount(temp), "\n");
+    snprintf(temp, elcount(temp), "  if($%s == %s)\n  {\n     write(\"> PASS: DBC default value & bus-received value of CAN signal '%s' match\\n\");\n  }\n", parsedSignalName[index], parsedSignalValue[index], parsedSignalName[index]);    
+    filePutString(temp, elcount(temp), writeHandle);
+    
+    snprintf(temp, elcount(temp), "");
+    snprintf(temp, elcount(temp), "  else\n  {\n     write(\"> FAIL: DBC default value & bus-received value of CAN signal '%s' do not match\\n\");\n  }\n\n", parsedSignalName[index], parsedSignalValue[index], parsedSignalName[index]);
+    filePutString(temp, elcount(temp), writeHandle);
+  }
+  
+    snprintf(temp, elcount(temp), "");
+    snprintf(temp, elcount(temp), "}");
+    filePutString(temp, elcount(temp), writeHandle);
+  
+}
